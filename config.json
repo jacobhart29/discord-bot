@@ -6,6 +6,7 @@
     "{members} members",
     "{channels} channels",
     "ping: {ping}ms",
-    "uptime: {uptime}"
+    "uptime: {uptime}",
+    "staight up config test"
   ]
 }
