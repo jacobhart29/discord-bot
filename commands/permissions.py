@@ -104,7 +104,7 @@ class Permissions(commands.Cog):
             text=f"Requested by {interaction.user.display_name}"
         )
 
-        await interaction.response.send_message(embed=embed)
+        await interaction.response.send_message(embed=embed, ephemeral=True)
 
 
 async def setup(bot):

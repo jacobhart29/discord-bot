@@ -382,6 +382,10 @@ class Poll(commands.Cog):
         name="poll",
         description="Create a poll with up to 10 options."
     )
+
+    @app_commands.default_permissions(administrator=True)
+    @app_commands.checks.has_permissions(administrator=True)
+    
     @app_commands.describe(
         question="The question for the poll.",
         option1="Option 1.",
