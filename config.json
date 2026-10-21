@@ -2,11 +2,8 @@
   "status_interval": 30,
   "activity_type": "watching",
   "statuses": [
-    "{servers} servers",
-    "{members} members",
-    "{channels} channels",
     "ping: {ping}ms",
     "uptime: {uptime}",
-    "staight up config test"
+    "i can't code or can i"
   ]
 }
